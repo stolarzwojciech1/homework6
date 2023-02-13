@@ -1,14 +1,16 @@
-html {
-    box-sizing: border-box;
+.section {
+    margin: 10px 0;
+    background: white;
+    box-shadow: 0 0 5px #ddd;
 }
 
-*,
-::after,
-::before {
-    box-sizing: inherit;
+.section__header {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
 }
 
-.body {
-    font-family: 'Lato', sans-serif;
-    background-color: rgba(207, 203, 203, 0.233);
+.section__body {
+    padding: 20px;
 }

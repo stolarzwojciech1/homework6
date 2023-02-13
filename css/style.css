@@ -2,13 +2,12 @@ html {
     box-sizing: border-box;
 }
 
-*,
-::after,
-::before {
+*, ::after, ::before {
     box-sizing: inherit;
 }
 
 body {
-    font-family: 'Lato', sans-serif;
-    background-color: #e5e2e2;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eee;
+    word-break: break-word;
 }
