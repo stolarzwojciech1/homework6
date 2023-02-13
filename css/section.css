@@ -1,0 +1,14 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(207, 203, 203, 0.233);
+}

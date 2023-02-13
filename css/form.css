@@ -1,0 +1,36 @@
+.form {
+    background-color: white;
+    padding: 25px;
+    margin: 0 0 7px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+}
+
+@media(max-width: 767px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+}
+
+.form__input {
+    padding: 8px;
+    flex-grow: 5;
+}
+
+.form__button {
+    padding: 8px;
+    background-color: hsl(180, 100%, 25%);
+    color: white;
+    border: 0;
+    flex-grow: 1;
+}
+
+.form__button:hover {
+    background-color: hsl(180, 100%, 30%);
+}
+
+.form__button:active {
+    background-color: hsl(180, 100%, 35%);
+}
